@@ -1,0 +1,51 @@
+.sec-1 {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 30px;
+}
+
+.btn-print {
+    text-align: center;
+    flex-wrap: wrap;
+}
+.btn, .btn-x {
+    background: greenyellow;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    box-shadow: 0 0 10px 0px grey;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-x {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 8px;
+    font-size: 15px;
+}
+
+.sec-1 p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+table {
+    background: rgb(255,255,255, 0.5);
+    width: 80%;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, tr, td {
+    border: 1px solid rgb(181, 179, 179);
+    border-radius: 5px;
+    align-items: center;
+}
+
+td {
+    padding: 5px;
+}

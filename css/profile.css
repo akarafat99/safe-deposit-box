@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.bg-1 {
+    /* The image used */
+    background-image: url(../img/background-2.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 100%;
+    /* height: 100vh; */
+    /* background: #ededff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    margin: 25px 0 0 0;
+    width: 90%;
+    background: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 20px 40px rgb(38, 25, 25);
+    /* border-radius: 5px; */
+    border-radius: 5px 55px 5px;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.max-wid-360 {
+    max-width: 360px;
+}
+
+.max-wid-720 {
+    max-width: 720px;
+}
+
+.pad-10-0 {
+    padding: 10px 0px;
+}
+.profile-bor-rad-2 {
+    border-radius: 10px;
+}
+
+.top-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.user-img {
+    /* width:20vh; height:20vh; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile h2 {
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.profile p {
+    font-size: 12px;
+}
+
+.mid-sec-1,
+.mid-sec-2,
+.btn-sec,
+.section,
+.social-media {
+    margin: 20px 10px;
+}
+
+.marg-l-5px {
+    margin-left: 5px;
+}
+
+.mid-sec-2 p {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.social-media, .section {
+    display: grid;
+    justify-content: space-around;
+    transition: all 0.3s ease 0s;
+}
+
+
+.grid-col-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+.grid-col-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-2 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-3 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-4 {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.social-media img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.social-media div {
+    margin: 10px 0 10px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #8d68c5, #e34494);
+    margin: 40px 0;
+    font-size: 14px;
+}
+
+.bg-red {
+    background: red;
+}
+
+.bg-green {
+    background: rgb(149, 223, 39);
+}
+
+.color-black {
+    color: rgb(0, 0, 0);
+}
+
+.no-marg-bord {
+    margin: 0;
+    border: 0px solid black;
+}
+
+.m-t-10 {
+    margin-bottom: 10px;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.m-t-50 {
+    margin-top: 50px;
+}
+
+.bord-rad-10 {
+    border-radius: 10px;
+}
+
+.pad-bottom-5 {
+    padding-bottom: 5px;
+}
+
+.color-black {
+    color: #000;
+}
+.bg-black {
+    background: black;
+}
+
+.bg-white {
+    background: rgb(255, 255, 255);
+}
+
+.bg-white-1 {
+    background: rgb(255, 255, 255, 0.1);
+}
+
+.social-media a, .btn a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.social-media h3 {
+    font-size: 12px;
+}
+
+.footer {
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
+
+
+@media (max-width: 720px) {
+    .profile {
+        width: 95%;
+        margin: 20px 12px;
+    }
+
+    .grid-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid-col-3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+

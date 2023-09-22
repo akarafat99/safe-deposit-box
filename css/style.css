@@ -1,0 +1,25 @@
+.m-b-15 {
+    margin-bottom: 15px;
+}
+
+.m-0 {
+    margin: 0 0;
+}
+
+.hr-1 {
+    width: 90%;
+}
+
+.header-1 {
+    color: brown;
+}
+
+.header-bg-1 {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.header-bg-1> h1 {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    color: rgb(255, 255, 255);
+}
